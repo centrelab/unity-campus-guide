@@ -70,3 +70,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+campus-guide (unity)/Assets/Models/*
+campus-guide (unity)/Character_Creator_and_iClone_Auto_Setup_1.4.6_for_Unity_HDRP12/*
