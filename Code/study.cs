@@ -31,13 +31,13 @@ public class study : MonoBehaviour
     public Button more;
     public Button less;
     public Button continueButton;
-    public GameObject btnStop;
+    public GameObject btnNext;
     public GameObject heightBoard;
     public GameObject movementArea;
 
     private void Start()
     {
-        btnStop.SetActive(false);
+        btnNext.SetActive(false);
         movementArea.SetActive(false);
         more.onClick.AddListener(delegate { increaseHeight(); });
         less.onClick.AddListener(delegate { decreaseHeight(); });
@@ -64,7 +64,7 @@ public class study : MonoBehaviour
     private void allowGuide()
     {
         movementArea.SetActive(true);
-        btnStop.SetActive(true);
+        btnNext.SetActive(true);
         heightBoard.SetActive(false);
     }
 

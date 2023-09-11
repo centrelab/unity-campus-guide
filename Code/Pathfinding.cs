@@ -64,7 +64,7 @@ public class Pathfinding : MonoBehaviour
         //option1.onClick.AddListener(delegate { navigateToSelection(); });
         destinationRange = elevators;
 
-        btnStop.onClick.AddListener(delegate { StopWalking(false); });
+        //btnStop.onClick.AddListener(delegate { StopWalking(false); });
 
         btnNext.onClick.AddListener(delegate { NextStep(); });
 
